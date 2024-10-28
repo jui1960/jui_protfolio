@@ -29,6 +29,7 @@ body{
   --shadow-color:rgba(0, 0, 0, .2);
   --bg-color:#fdfdfd;
   --bg-about-color:#212747;
+  --footer-font: "Syne", sans-serif;
 }
 
 /* header section start  */
@@ -573,6 +574,10 @@ to{
   border: none;
   background-color: var(--main-color);
   color: var(--bg-color);
+  transition: .5s;
+}
+.b:hover{
+  background-color: rgb(158, 143, 212);
 }
 /* skill section end  */
 
@@ -605,6 +610,7 @@ footer{
 .icon-style:hover{
   transform: scale(1.3);
   background-color: gray;
+  
 }
 .foot{
   padding-bottom: .7rem;
