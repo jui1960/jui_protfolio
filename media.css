@@ -1,0 +1,142 @@
+@media only screen and (min-width:600px) {
+    .fixed {
+        width: 75%;
+        margin: 0 auto;
+        padding-left: 5%;
+    }
+    .contact form .input-box{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .contact form .input-box input{
+        width: 85%;
+        margin: 1rem 0;
+    }
+    .contact form textarea{
+        width: 65%;
+    }
+ 
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width:768px) {
+    /* nav section here  */
+    #menu-icon {
+        display: none;
+    }
+
+    .hidden {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav ul { 
+        position: absolute;
+        top: 1.6rem;
+        right: .1rem;
+    }
+
+    nav li{
+        display: inline;
+        margin: 1rem 0;
+    }
+
+    .nav-link{
+        font-size: 1.3rem;
+    }
+
+    .skill-container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 2rem;
+    }
+
+    /* nav section end here  */
+
+    #Home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 50px;
+    gap: 60px;
+    }
+    .home-content{
+    order: 0;
+    }
+    .hom-img{
+    order: 1;
+    }
+    .about-content p{
+        text-align: center;
+    }
+
+    /* project section start here  */
+    .project-container{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .imag img{
+        height: 200px;
+    }
+    /* project section end here  */
+
+    /* skill section start */
+    .technical-skill , .professional-skill{
+        padding: .4rem;
+        transition: .3s;
+    }
+      /* footer section start  */
+  
+    .footer-icon{
+        float: right;
+    }
+    .foot{
+        float: left;
+        padding: 2rem;
+    }
+    .footer-sec::after{
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+} 
+
+
+   
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .about-p{
+        width: 60%;
+        margin: 0 auto;
+    }
+    /* skill section start */
+    .skill-container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 2rem;
+    }
+    .services-container .services-box{
+        flex:1 1 30rem ;
+    }
+    /* contact section start  */
+    .fixed {
+        width: 65%;
+        margin: 0 auto;
+        /* padding-left: 7%; */
+    }
+    .contact form .input-box input{
+        width: 82%;
+        margin: 1rem 0;
+    }
+    .contact form textarea{
+        width: 55%;
+    }
+
+    /* project section start here  */
+    .project-container{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+}
